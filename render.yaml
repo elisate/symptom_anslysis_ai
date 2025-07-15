@@ -1,0 +1,36 @@
+databases:
+  - name: medicaldb
+    plan: free
+
+services:
+  - type: web
+    name: medical-ai-app
+    runtime: python
+    plan: free
+    buildCommand: "./build.sh"
+    startCommand: "python -m gunicorn mysite.asgi:application -k uvicorn.workers.UvicornWorker"
+    envVars:
+      - key: DB_NAME
+        value: MEDICAL_AI
+      - key: DB_HOST
+        value: cluster0.hex2mmr.mongodb.net
+      - key: DB_USER
+        value: elisa_db
+      - key: DB_PASS
+        value: Elisa6464
+      - key: DB_URI
+        value: mongodb+srv://elisa_db:Elisa6464@cluster0.hex2mmr.mongodb.net/MEDICAL_AI?retryWrites=true&w=majority
+      - key: JWT_SECRET_KEY
+        value: django-insecure-+=1i7l(!vzgv4hbkffecp5(gi!xfbf67@f(eb4e*en86dp5qcm
+      - key: CLOUDINARY_CLOUD_NAME
+        value: deaqa3zvd
+      - key: CLOUDINARY_API_KEY
+        value: "228359843523968"
+      - key: CLOUDINARY_API_SECRET
+        value: dGNzJXl_7LjtPyveFl16-3KGIyA
+      - key: EMAIL_USER
+        value: infodtechel@gmail.com
+      - key: SECRET_KEY
+        generateValue: true
+      - key: WEB_CONCURRENCY
+        value: 4
