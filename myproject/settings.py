@@ -4,10 +4,8 @@ from datetime import timedelta
 from dotenv import load_dotenv
 from mongoengine import connect
 
-# Optional in production (Render injects env vars directly)
 load_dotenv()
 
-# Base path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Environment
@@ -73,7 +71,7 @@ REST_FRAMEWORK = {
     ),
 }
 
-# MongoDB (if you're using MongoDB instead of PostgreSQL)
+# MongoDB Only (no PostgreSQL)
 db_uri = os.getenv("DB_URI")
 db_name = os.getenv("DB_NAME")
 
@@ -83,16 +81,7 @@ if db_uri and db_name:
         host=db_uri
     )
 
-# Optional PostgreSQL support (Render default)
-try:
-    import dj_database_url
-    DATABASES = {
-        "default": dj_database_url.config(default=os.environ.get("DATABASE_URL"))
-    }
-except ImportError:
-    DATABASES = {}
-
-# Static files for Render
+# Static files
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
