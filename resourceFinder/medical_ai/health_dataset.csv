@@ -1,0 +1,30 @@
+Symptoms,Diagnosis,Recommended_Hospitals,Hospital_Location,Recommended_Doctors,Medical_Supplies,Medical_Resources
+"Fever, Cough, Fatigue",Influenza,NyiranumaHC,Nyarugenge,Dr. Alice Smith,"Paracetamol, Cough Syrup","WHO Flu Guide, CDC Influenza Guidelines"
+"Chest Pain, Shortness of Breath",Angina,Remera HC,Gasabo,Dr. James Lin,"Nitroglycerin, ECG Machine",American Heart Association Tips
+"Headache, Nausea, Blurred Vision",Migraine,Ruhengeri HC,Musanze,Dr. Priya Kapoor,"Ibuprofen, Anti-nausea Tablets",Migraine Research Foundation
+"Sore Throat, Swollen Glands",Tonsillitis,Medline Children Hospital,"Atlanta, GA",Dr. Maria Gonzalez,"Antibiotics, Throat Lozenges",Mayo Clinic Tonsillitis Info
+"Fatigue, Weight Loss, Night Sweats",Tuberculosis,National TB Center,"Houston, TX",Dr. Samuel Lee,"Isoniazid, Rifampin",CDC TB Guidelines
+"Joint Pain, Swelling",Rheumatoid Arthritis,OrthoWell Clinic,"Seattle, WA",Dr. Henry Adams,"NSAIDs, Methotrexate",Arthritis Foundation Resources
+"Stomach Pain, Diarrhea, Vomiting",Food Poisoning,UrgentCare Medical,"Miami, FL",Dr. Chen Liu,"Oral Rehydration Salts, Antiemetics",WHO Food Safety Guide
+"Rash, Itching, Swelling",Allergic Reaction,Allergy Relief Center,"Denver, CO",Dr. Angela Perez,"Antihistamines, EpiPen","American College of Allergy, Asthma & Immunology"
+"Frequent Urination, Thirst",Diabetes Type 2,EndoHealth Institute,"Phoenix, AZ",Dr. Omar Nasser,"Metformin, Insulin",ADA Diabetes Management Resources
+"Back Pain, Numbness in Legs",Herniated Disc,SpineCare Hospital,"San Diego, CA",Dr. Rachel O’Connor,"Pain Relievers, MRI",Johns Hopkins Neurosurgery Guide
+"Coughing Blood, Chest Pain",Lung Cancer,OncoLife Center,"Boston, MA",Dr. Victor Tan,"Chemotherapy Drugs, Inhalers",National Cancer Institute Lung Cancer Page
+"Palpitations, Dizziness",Arrhythmia,CardioPulse Clinic,"Philadelphia, PA",Dr. Sophie Dubois,"Beta-blockers, ECG",Heart Rhythm Society Resources
+"Skin Lesions, Fever",Chickenpox,Community Health Clinic,"Portland, OR",Dr. Jacob Stein,"Calamine Lotion, Antivirals",CDC Chickenpox Guidelines
+"Mood Swings, Sleep Issues",Bipolar Disorder,MindCare Psychiatry,"Austin, TX",Dr. Sarah Johnson,"Mood Stabilizers, Therapy Sessions",NIMH Bipolar Disorder Education
+Severe Abdominal Pain,Appendicitis,Surgical Excellence Hospital,"San Jose, CA",Dr. Abdul Karim,"IV Fluids, Surgery",Johns Hopkins Appendicitis Care
+"fever, cough",common cold,City Hospital,Kigali,Dr. John,Paracetamol,Stethoscope
+"headache, blurred vision",migraine,General Hospital,"Los Angeles, CA",Dr. Emma,Aspirin,MRI Scanner
+"chest pain, breathlessness",heart disease,Heart Care Center,"Boston, MA",Dr. Smith,Nitroglycerin,ECG Machine
+"joint pain, swelling",arthritis,Orthopedic Clinic,"Chicago, IL",Dr. Wilson,Ibuprofen,X-ray Machine
+"stomach pain, nausea",gastritis,Gastro Center,"Houston, TX",Dr. Lee,Antacids,Endoscopy Equipment
+"high blood pressure, headache",hypertension,Cardio Clinic,"Miami, FL",Dr. Patel,Beta Blockers,Blood Pressure Monitor
+"weight loss, fatigue",diabetes,Diabetes Care,"San Francisco, CA",Dr. Sarah,Insulin,Glucose Meter
+"itchy skin, redness",allergy,Dermatology Clinic,"Denver, CO",Dr. Grace,Antihistamines,Allergy Test Kit
+"sore throat, difficulty swallowing",tonsillitis,ENT Hospital,"Phoenix, AZ",Dr. Alan,Lozenges,Throat Swab Kit
+"frequent urination, thirst",kidney disease,Nephro Center,"Dallas, TX",Dr. Daniel,Diuretics,Dialysis Machine
+"abdominal pain, bloating",appendicitis,Emergency Hospital,Kigali,Dr. Carla,Antibiotics,Ultrasound Machine
+"dizziness, fainting",anemia,Hematology Center,"Atlanta, GA",Dr. James,Iron Supplements,Hemoglobin Test Kit
+"back pain, leg numbness",sciatica,Neuro Clinic,"Nashville, TN",Dr. Arthur,Muscle Relaxants,CT Scanner
+"shortness of breath, cough",pneumonia,Lung Care Center,"Philadelphia, PA",Dr. Lisa,Antibiotics,Oxygen Therapy Machine
